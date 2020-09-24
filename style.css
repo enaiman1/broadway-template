@@ -127,3 +127,30 @@ footer i{
     background-color: #f2ede9;
   
 }
+
+/* about page */
+.block {
+    background-color: #f7ded9e8;
+  
+    padding: 30px;
+    margin-bottom: 30px;
+    height: 50vh;
+    background-color: #f2ede9;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    font-size: 1.2rem;
+  }
+  
+  #about-image {
+    /* Positioning */
+    float: left;
+  
+    /* Box-model */
+    width: 400px;
+    margin: 0 20px 10px 0;
+
+    border-radius: 50%;
+
+    
+  }
+  
