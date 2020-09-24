@@ -7,6 +7,13 @@
       href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Rochester&family=Rokkitt&display=swap"
       rel="stylesheet"
     />
+    <!-- font awesome -->
+  <link
+  rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+  integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+  crossorigin="anonymous"
+/>
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
@@ -21,12 +28,13 @@
 
     
     <!-- jumbotron -->
-    <div class="jumbotron jumbotron-fluid">
+    <div class="jumbotron jumbotron-fluid mainJumbo">
       <!-- header -->
       <div class="mainTitle">
         <h1>She talks Broadway</h1>
       </div>
       <!-- navbar -->
+      <div class="">
       <ul class="nav justify-content-center">
         <li class="nav-item">
           <a class="nav-link text-dark m-3" href="#">Home</a>
@@ -35,20 +43,46 @@
           <a class="nav-link text-dark m-3" href="#">Blog</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-dark m-3" href="#">Reviews</a>
+          <a class="nav-link text-dark m-3" href="#">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-dark m-3" href="#">Contact</a>
+          <a class="nav-link text-dark m-3" href="./contact.html">Contact</a>
         </li>
       </ul>
     </div>
 
+    <!-- <nav class="navbar navbar-expand-lg">
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link text-dark m-3" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark m-3" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark m-3" href="#">Reviews</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark m-3" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav> -->
+</div>
     <div class="container-fluid">
       <!-- page about and instagram -->
-      <div class="row ">
+      <div class="row">
         <!-- about -->
-        <div class="col-7 m-3 about">
-          <h2>About</h2>
+        <div class="col-lg-7 col-sm-12 m-3 about">
+        <div class="row">
+            <div class="col">
+                <h2 class="p-1 h2Font">About</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus
             animi ex error obcaecati facere, saepe enim sapiente ab dolorem
@@ -60,48 +94,82 @@
             animi ex error obcaecati facere, saepe enim sapiente ab dolorem
             delectus itaque provident molestiae odio sint cum quas ipsum.
             Debitis, quidem!
-          </p>
+          </p> 
+            </div>
+            
         </div>
-        <div class="col-4 m-3 insta">
-            <h3 class="text-center">Instagram</h3>
+        <div class="row">
+            <div class="col-12 mb-1">
+            <h2 class="h2Font">latest posts</h2>
+        </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="card" style="width: 16rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Post title 1</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">post subtitle</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="card" style="width: 16rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Post title 2</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">post subtitle</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+                <div class="card" style="width: 16rem;">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title 1</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">post subtitle</h6>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="card-link">Card link</a>
+                      <a href="#" class="card-link">Another link</a>
+                    </div>
+                  </div>
+            </div>   
+        </div>
+         
+        </div>
+        <div class="col-lg-4 col-sml-12 m-3 insta">
+            <h2 class="text-center h2Font">Instagram</h2>
           <div class="row">
-            <div class="col-6 mb-1"><img class="img-fluid port-image" src="https://via.placeholder.com/350x350" alt=""></div>
-            <div class="col-6 mb-1"><img class="img-fluid port-image" src="https://via.placeholder.com/350x350" alt=""></div>
+            <div class="col-md-6 col-sm-12 mb-1"><img class="img-fluid port-image" src="http://placekitten.com/350" alt=""></div>
+            <div class="col-md-6 col-sm-12 mb-1"><img class="img-fluid port-image" src="https://picsum.photos/350" alt=""></div>
+          </div>
+          <div class="row"> 
+            <div class="col-md-6 col-sm-12 mb-1"><img class="img-fluid port-image" src="https://picsum.photos/350" alt=""></div>
+            <div class="col-md-6 col-sm-12 mb-1"><img class="img-fluid port-image" src="http://placekitten.com/350" alt=""></div>
           </div>
           <div class="row">
-            <div class="col-6 mb-1"><img class="img-fluid port-image" src="https://via.placeholder.com/350x350" alt=""></div>
-            <div class="col-6 mb-1"><img class="img-fluid port-image" src="https://via.placeholder.com/350x350" alt=""></div>
-          </div>
-          <div class="row">
-            <div class="col-6 mb-1"><img class="img-fluid port-image" src="https://via.placeholder.com/350x350" alt=""></div>
-            <div class="col-6 mb-1"><img class="img-fluid port-image" src="https://via.placeholder.com/350x350" alt=""></div>
+            <div class="col-md-6 col-sm-12 mb-1"><img class="img-fluid port-image" src="http://placekitten.com/350" alt=""></div>
+            <div class="col-md-6 col-sm-12 mb-1"><img class="img-fluid port-image" src="https://picsum.photos/350" alt=""></div>
           </div>
         </div>
       </div>
-
-      <!-- top posts -->
-      <!-- <div class="row">
-        <div class="col"></div>
-
-        <div class="col">3 of 3</div>
-      </div>
-    </div> -->
 
       <!-- Start of footer -->
       <footer class="mt-4">
         <div class="container-fluid py-3">
             <div class="row">
-                <div class="col-md-3">
-                    <h5>Footer</h5></div>
-                <div class="col-md-3"></div>
-                <div class="col-md-3"></div>
-                <div class="col-md-3"></div>
+                <div class="col-sm-12 text-center ">Copyright ©2020 She talks broadway | All Rights Reserved</div>
             </div>
-            <div class="row">
-                <div class="col-md-6">I stay at the bottom of the viewport! <span class="small"><br>Unless the page content pushes me further.</span></div>
-                <div class="col-md-3"></div>
-                <div class="col-md-3 text-right small align-self-end">©2017 Brand, Inc.</div>
-            </div>
+            
+            <div class="row justify-content-center">
+                <div class="col-3"></div>
+                <div class="col-1"><i class="fab fa-linkedin fa-2x"></i></div>
+                <div class="col-1"><i class="fab fa-instagram-square fa-2x"></i></div>
+                <div class="col-1"><i class="fab fa-facebook fa-2x"></i></div>
+            <div class="col-3"></div>
+            
+        </div>
         </div>
     </footer>
 
